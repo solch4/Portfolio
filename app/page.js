@@ -1,7 +1,17 @@
-export default function Home() {
+import { Poppins } from "@next/font/google";
+import { styles } from "@/styles";
+import Home from "@/sections/Home";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  variable: "--font-poppins",
+  weight: "400",
+});
+
+export default function Page() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <div className={`${styles.gradient} ${poppins.variable} font-poppins`}>
+      <Home />
+    </div>
+  );
 }
