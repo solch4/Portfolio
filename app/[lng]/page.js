@@ -8,10 +8,10 @@ const poppins = Poppins({
   weight: "400",
 });
 
-export default function Page() {
+export default async function Page({ params: { lng } }) {
   return (
     <div className={`${styles.gradient} ${poppins.variable} font-poppins`}>
-      <Home />
+      <Home lng={lng} />
     </div>
   );
 }

@@ -1,0 +1,231 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "homeSection": {
+    "title": [
+      "Hi! I'm",
+      "Sol Maldonado,",
+      "Front-End Developer"
+    ]
+  },
+  "aboutSection": {
+    "title": "About me",
+    "text": "Hi! I'm Sol Maldonado and I'm a Full Stack Developer with a strong Front-End orientation. I graduated as a Full Stack Developer from the Henry bootcamp, which consists of an intensive course with +800 hours of programming based on practices and real projects. I'm a person with discipline, persistence and attitude that seeks to gain experience in the IT sector. I enjoy teamwork and learning new things. I am looking for new challenges, I am open to all opportunities that allow me to grow and continue training.",
+    "button": "Download CV"
+  },
+  "skillsSection": {
+    "title": "Skills",
+    "skills": [
+      {
+        "name": "HTML",
+        "image": "./assets/html.svg"
+      },
+      {
+        "name": "CSS",
+        "image": "./assets/css.svg"
+      },
+      {
+        "name": "JavaScript",
+        "image": "./assets/javascript.svg"
+      },
+      {
+        "name": "React",
+        "image": "./assets/react.svg"
+      },
+      {
+        "name": "Redux",
+        "image": "./assets/redux.svg"
+      },
+      {
+        "name": "Next JS",
+        "image": "./assets/nextjs.svg"
+      },
+      {
+        "name": "Bootstrap",
+        "image": "./assets/bootstrap.svg"
+      },
+      {
+        "name": "Tailwind",
+        "image": "./assets/tailwind.svg"
+      },
+      {
+        "name": "Sass",
+        "image": "./assets/sass.svg"
+      },
+      {
+        "name": "Framer motion",
+        "image": "./assets/framer-motion.svg"
+      },
+      {
+        "name": "Node JS",
+        "image": "./assets/nodejs.svg"
+      },
+      {
+        "name": "Express",
+        "image": "./assets/express.svg"
+      },
+      {
+        "name": "PostgreSQL",
+        "image": "./assets/postgresql.svg"
+      },
+      {
+        "name": "Sequelize",
+        "image": "./assets/sequelize.svg"
+      },
+      {
+        "name": "GIT",
+        "image": "./assets/git.svg"
+      },
+      {
+        "name": "Figma",
+        "image": "./assets/figma.svg"
+      }
+    ]
+  },
+  "projectsSection": {
+    "title": "My projects",
+    "projects": [
+      {
+        "title": "Food App - Full stack Dev",
+        "image": "./assets/food-app.png",
+        "description": "FullStack app, you can view +100 recipes. The app allows the user to filter by type of diet, perform various sorts and add recipes to favorites. Also, you can search by name or health score, create a new one, and edit or delete an already created one. Individual project at Henry Bootcamp.",
+        "technologies": [
+          "React",
+          "Redux",
+          "CSS modules",
+          "Node JS",
+          "Express",
+          "PostgreSQL",
+          "Sequelize"
+        ],
+        "links": {
+          "demo": "https://food-app-solch4.vercel.app/",
+          "github": "https://github.com/solch4/Food-App"
+        }
+      },
+      {
+        "title": "World Developers - Front end Dev",
+        "image": "./assets/world-developers.png",
+        "description": "E-commerce of a hotel chain focused on hosting developers. It includes authentication, email notifications, payment gateway, searches, filtering, ordering, creation, modification and deletion among other functions. Final group project at Henry Bootcamp.",
+        "technologies": [
+          "React",
+          "Redux",
+          "Bootstrap",
+          "Firebase",
+          "Stripe",
+          "Cloudinary",
+          "Node JS",
+          "Express",
+          "PostgreSQL",
+          "Sequelize"
+        ],
+        "links": {
+          "demo": "https://world-dev-front.vercel.app/",
+          "github": "https://github.com/TheOliver413/WorldDev-Front"
+        }
+      },
+      {
+        "title": "Weather App",
+        "image": "./assets/weather-app.png",
+        "description": "Weather application in real time. Allows access to climate data from different cities around the world.",
+        "technologies": [
+          "React",
+          "Pure CSS"
+        ],
+        "links": {
+          "demo": "https://solch4.github.io/Weather-App/",
+          "github": "https://github.com/solch4/Weather-App"
+        }
+      },
+      {
+        "title": "Space tourism website",
+        "image": "./assets/space-tourism-website.png",
+        "description": "Solution to the Space tourism website challenge on Frontend Mentor.",
+        "technologies": [
+          "React",
+          "Sass"
+        ],
+        "links": {
+          "demo": "https://space-tourism-solch4.netlify.app/",
+          "github": "https://github.com/solch4/Space-tourism-website"
+        }
+      },
+      {
+        "title": "Metaversus",
+        "image": "./assets/metaversus.png",
+        "description": "Modern website with animated transitions to practice Next.JS 13, Tailwind and Framer Motion",
+        "technologies": [
+          "Next JS",
+          "Tailwind",
+          "Framer Motion"
+        ],
+        "links": {
+          "demo": "https://metaversus-solch4.vercel.app/",
+          "github": "https://github.com/solch4/Metaversus"
+        }
+      },
+      {
+        "title": "Dog App - Full stack Dev",
+        "image": "./assets/dog-app.png",
+        "description": "Full Stack app, you can view +170 breeds of dogs. The application allows the user to filter by breed, temperament, and perform various sorts. Additionally, you can search by name, create a new breed, and edit or delete an existing one. Individual project at Henry Bootcamp.",
+        "technologies": [
+          "React",
+          "Redux",
+          "Pure CSS",
+          "Node JS",
+          "Express",
+          "PostgreSQL",
+          "Sequelize"
+        ],
+        "links": {
+          "demo": "https://dogs-app-solch4.vercel.app/",
+          "github": "https://github.com/solch4/Dog-App"
+        }
+      },
+      {
+        "title": "Memory game",
+        "image": "./assets/memory-game.png",
+        "description": "The classic memory game, with a timer and attempt counter",
+        "technologies": [
+          "HTML",
+          "Pure CSS",
+          "JavaScript"
+        ],
+        "links": {
+          "demo": "https://solch4.github.io/Juego-de-Memoria/",
+          "github": "https://github.com/solch4/Juego-de-Memoria"
+        }
+      },
+      {
+        "title": "Calculator",
+        "image": "./assets/calculator.png",
+        "description": "Simple calculator built with React",
+        "technologies": [
+          "React",
+          "Pure CSS"
+        ],
+        "links": {
+          "demo": "https://solch4.github.io/Calculator-App/",
+          "github": "https://github.com/solch4/Calculator-App"
+        }
+      }
+    ]
+  },
+  "contactSection": {
+    "title": "Contact",
+    "text": "If you want to leave a feedback, proposal or just say hello, I’d love to hear from you! Fill in your info in the form below and I look forward to hearing from you!",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message"
+    }
+  },
+  "footer": {
+    "text": "© 2023 | Diseñado y desarrollado con ❤ por Sol"
+  }
+}
