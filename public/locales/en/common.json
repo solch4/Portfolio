@@ -1,25 +1,25 @@
 {
   "nav": {
-    "home": "Inicio",
-    "about": "Sobre mí",
-    "skills": "Habilidades",
-    "projects": "Proyectos",
-    "contact": "Contacto"
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
   },
   "homeSection": {
     "title": [
-      "Hola! Soy",
+      "Hi! I'm",
       "Sol Maldonado,",
       "Front-End Developer"
     ]
   },
   "aboutSection": {
-    "title": "Sobre mí",
-    "text": "Hola! Soy Sol Maldonado y soy Full Stack Developer con fuerte orientación al Front-End. Me gradué como Full Stack Developer del bootcamp Soy Henry, el cual consta de un curso intensivo con +800 horas de programación basado en prácticas y proyectos reales. Soy una persona con disciplina, persistencia y actitud que busca sumar experiencia en el sector IT. Disfruto el trabajo en equipo y aprender cosas nuevas. Me encuentro en búsqueda de nuevos desafíos, estoy abierta a todas las oportunidades que me permitan crecer y seguir capacitándome.",
-    "button": "Descargar CV"
+    "title": "About me",
+    "text": "Hi! I'm Sol Maldonado and I'm a Full Stack Developer with a strong Front-End orientation. I graduated as a Full Stack Developer from the Henry bootcamp, which consists of an intensive course with +800 hours of programming based on practices and real projects. I'm a person with discipline, persistence and attitude that seeks to gain experience in the IT sector. I enjoy teamwork and learning new things. I am looking for new challenges, I am open to all opportunities that allow me to grow and continue training.",
+    "button": "Download CV"
   },
   "skillsSection": {
-    "title": "Habilidades",
+    "title": "Skills",
     "skills": [
       {
         "name": "HTML",
@@ -88,12 +88,12 @@
     ]
   },
   "projectsSection": {
-    "title": "Mis proyectos",
+    "title": "My projects",
     "projects": [
       {
         "title": "Food App - Full stack Dev",
         "image": "./assets/food-app.png",
-        "description": "Aplicación FullStack en la cual se puede visualizar +100 recetas. La aplicación le permite al usuario filtrar por tipo de dieta, realizar diversos ordenamientos y agregar recetas a favoritos. Además, puede buscar por nombre o puntaje de salud, crear una nueva y editar o borrar una ya creada. Proyecto individual en el Bootcamp de soyHenry.",
+        "description": "FullStack app, you can view +100 recipes. The app allows the user to filter by type of diet, perform various sorts and add recipes to favorites. Also, you can search by name or health score, create a new one, and edit or delete an already created one. Individual project at Henry Bootcamp.",
         "technologies": [
           "React",
           "Redux",
@@ -111,7 +111,7 @@
       {
         "title": "World Developers - Front end Dev",
         "image": "./assets/world-developers.png",
-        "description": "E-commerce de cadena hotelera orientado al alojamiento de desarrolladores. Incluye autenticación, notificaciones por mail, pasarela de pago, búsquedas, filtrados, ordenamientos, creación, modificación y borrado entre otras funciones. Proyecto grupal final en el Bootcamp de soyHenry.",
+        "description": "E-commerce of a hotel chain focused on hosting developers. It includes authentication, email notifications, payment gateway, searches, filtering, ordering, creation, modification and deletion among other functions. Final group project at Henry Bootcamp.",
         "technologies": [
           "React",
           "Redux",
@@ -132,10 +132,10 @@
       {
         "title": "Weather App",
         "image": "./assets/weather-app.png",
-        "description": "Aplicación del clima en tiempo real. Permite acceder a datos climáticos de distintas ciudades del mundo.",
+        "description": "Weather application in real time. Allows access to climate data from different cities around the world.",
         "technologies": [
           "React",
-          "CSS Puro"
+          "Pure CSS"
         ],
         "links": {
           "demo": "https://solch4.github.io/Weather-App/",
@@ -145,7 +145,7 @@
       {
         "title": "Space tourism website",
         "image": "./assets/space-tourism-website.png",
-        "description": "Solución al desafío Space tourism website en Frontend Mentor.",
+        "description": "Solution to the Space tourism website challenge on Frontend Mentor.",
         "technologies": [
           "React",
           "Sass"
@@ -158,7 +158,7 @@
       {
         "title": "Metaversus",
         "image": "./assets/metaversus.png",
-        "description": "Website moderno con transiciones animadas para practicar Next.JS 13, Tailwind y Framer Motion",
+        "description": "Modern website with animated transitions to practice Next.JS 13, Tailwind and Framer Motion",
         "technologies": [
           "Next JS",
           "Tailwind",
@@ -172,11 +172,11 @@
       {
         "title": "Dog App - Full stack Dev",
         "image": "./assets/dog-app.png",
-        "description": "Aplicación Full Stack en la cual se puede visualizar +170 razas de perros. La aplicación le permite al usuario filtrar por raza, temperamento y realizar diversos ordenamientos. Además, puede buscar por nombre, crear una raza nueva y editar o borrar una ya existente. Esta aplicación fue desarrollada como proyecto individual en el Bootcamp de soyHenry.",
+        "description": "Full Stack app, you can view +170 breeds of dogs. The application allows the user to filter by breed, temperament, and perform various sorts. Additionally, you can search by name, create a new breed, and edit or delete an existing one. Individual project at Henry Bootcamp.",
         "technologies": [
           "React",
           "Redux",
-          "CSS Puro",
+          "Pure CSS",
           "Node JS",
           "Express",
           "PostgreSQL",
@@ -188,12 +188,12 @@
         }
       },
       {
-        "title": "Juego de Memoria",
+        "title": "Memory game",
         "image": "./assets/memory-game.png",
-        "description": "El clásico juego de memoria, con cronómetro y conteo de intentos",
+        "description": "The classic memory game, with a timer and attempt counter",
         "technologies": [
           "HTML",
-          "CSS Puro",
+          "Pure CSS",
           "JavaScript"
         ],
         "links": {
@@ -202,12 +202,12 @@
         }
       },
       {
-        "title": "Calculadora",
+        "title": "Calculator",
         "image": "./assets/calculator.png",
-        "description": "Calculadora simple hecha con React",
+        "description": "Simple calculator built with React",
         "technologies": [
           "React",
-          "CSS Puro"
+          "Pure CSS"
         ],
         "links": {
           "demo": "https://solch4.github.io/Calculator-App/",
@@ -217,12 +217,12 @@
     ]
   },
   "contactSection": {
-    "title": "Contacto",
-    "text": "Si quieres dejar feedback, hacer una propuesta o simplemente saludar, ¡me encantaría saber de ti! Completa tu información en el siguiente formulario.",
+    "title": "Contact",
+    "text": "If you want to leave a feedback, proposal or just say hello, I’d love to hear from you! Fill in your info in the form below and I look forward to hearing from you!",
     "form": {
-      "name": "Nombre",
+      "name": "Name",
       "email": "Email",
-      "message": "Mensaje"
+      "message": "Message"
     }
   },
   "footer": {

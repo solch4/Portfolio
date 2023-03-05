@@ -1,7 +1,7 @@
 import React from "react";
 import { Abril_Fatface } from "@next/font/google";
 import { styles } from "@/styles";
-import { useTranslation } from "@/app/i18n";
+import { useTranslation } from "next-i18next";
 
 const abrilFatface = Abril_Fatface({
   subsets: ["latin"],
@@ -9,8 +9,8 @@ const abrilFatface = Abril_Fatface({
   weight: "400",
 });
 
-export default async function Home({ lng }) {
-  const { t } = await useTranslation(lng);
+export default function Home() {
+  const { t } = useTranslation("common");
 
   return (
     <div className={`${styles.container} ${styles.verticalFlow}`}>
