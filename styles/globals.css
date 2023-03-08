@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-abrilFatface
+}
+
+h1 {
+  @apply text-[2.5rem] lg:text-[3.5rem]
+}
+
+h2 {
+  @apply text-[2rem] md:text-[2.5rem]
+}
+
+h3 {
+  @apply text-[1.5rem] md:text-[2rem]
+}
+
+.gradient {
+  @apply bg-gradient-to-r from-secondary-50 to-primary-50
+}

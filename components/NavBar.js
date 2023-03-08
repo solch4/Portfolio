@@ -15,9 +15,7 @@ export default function NavBar() {
   const nav = t("nav", { returnObjects: true });
 
   return (
-    <div
-      className={`${styles.gradient} shadow-[0_8px_8px_-8px_#4D323910] sticky top-0`}
-    >
+    <div className="gradient shadow-[0_8px_8px_-8px_#4D323910] sticky top-0">
       <div className={`${styles.innerWidth} flex py-6 justify-between`}>
         <Image
           src={"./assets/logo.svg"}
@@ -41,9 +39,7 @@ export default function NavBar() {
         </button>
         {/* menu responsive */}
         {(isOpen || window.width > 768) && (
-          <div
-            className={`${styles.gradient} md:bg-none w-2/3 md:w-auto h-screen md:h-auto md:grid absolute md:static right-0 top-0 py-16 px-8 md:p-0`}
-          >
+          <div className="gradient md:bg-none w-2/3 md:w-auto h-screen md:h-auto md:grid absolute md:static right-0 top-0 py-16 px-8 md:p-0">
             <ul className="flex flex-col md:flex-row md:items-center gap-8 md:gap-4">
               <Menu as="li" className="relative list-none">
                 <Menu.Button className="px-1">
@@ -106,9 +102,7 @@ export default function NavBar() {
                   leaveFrom="transform opacity-100 scale-100"
                   leaveTo="transform opacity-0 scale-95"
                 >
-                  <Menu.Items
-                    className={`${styles.gradient} flex flex-col gap-2 p-2 absolute left-0 mt-1 rounded-lg min-w-[10rem] shadow-md shadow-neutral-700/20`}
-                  >
+                  <Menu.Items className="gradient flex flex-col gap-2 p-2 absolute left-0 mt-1 rounded-lg min-w-[10rem] shadow-md shadow-neutral-700/20">
                     {locales.map((l) => (
                       <Menu.Item key={l}>
                         {({ active }) => (

@@ -1,5 +1,4 @@
 import { Poppins } from "@next/font/google";
-import { styles } from "@/styles";
 import Home from "@/sections/Home";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import NavBar from "@/components/NavBar";
@@ -12,7 +11,7 @@ const poppins = Poppins({
 
 export default function Page() {
   return (
-    <div className={`${styles.gradient} ${poppins.variable} font-poppins text-neutral-700`} >
+    <div className={`${poppins.variable} font-poppins gradient text-neutral-700`} >
       <NavBar />
       <Home />
     </div>
