@@ -2,6 +2,7 @@ import { Poppins } from "@next/font/google";
 import Home from "@/sections/Home";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import NavBar from "@/components/NavBar";
+import AboutMe from "@/sections/AboutMe";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -14,6 +15,7 @@ export default function Page() {
     <div className={`${poppins.variable} font-poppins gradient text-neutral-700`} >
       <NavBar />
       <Home />
+      <AboutMe />
     </div>
   );
 }
