@@ -3,6 +3,7 @@ import Home from "@/sections/Home";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import NavBar from "@/components/NavBar";
 import AboutMe from "@/sections/AboutMe";
+import Skills from "@/sections/Skills";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -16,6 +17,7 @@ export default function Page() {
       <NavBar />
       <Home />
       <AboutMe />
+      <Skills />
     </div>
   );
 }

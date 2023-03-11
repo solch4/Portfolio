@@ -23,67 +23,67 @@
     "skills": [
       {
         "name": "HTML",
-        "image": "./assets/html.svg"
+        "image": "./assets/skills/html.svg"
       },
       {
         "name": "CSS",
-        "image": "./assets/css.svg"
+        "image": "./assets/skills/css.svg"
       },
       {
         "name": "JavaScript",
-        "image": "./assets/javascript.svg"
+        "image": "./assets/skills/javascript.svg"
       },
       {
         "name": "React",
-        "image": "./assets/react.svg"
+        "image": "./assets/skills/react.svg"
       },
       {
         "name": "Redux",
-        "image": "./assets/redux.svg"
+        "image": "./assets/skills/redux.svg"
       },
       {
         "name": "Next JS",
-        "image": "./assets/nextjs.svg"
+        "image": "./assets/skills/nextjs.svg"
       },
       {
         "name": "Bootstrap",
-        "image": "./assets/bootstrap.svg"
+        "image": "./assets/skills/bootstrap.svg"
       },
       {
         "name": "Tailwind",
-        "image": "./assets/tailwind.svg"
+        "image": "./assets/skills/tailwind.svg"
       },
       {
         "name": "Sass",
-        "image": "./assets/sass.svg"
+        "image": "./assets/skills/sass.svg"
       },
       {
         "name": "Framer motion",
-        "image": "./assets/framer-motion.svg"
+        "image": "./assets/skills/framer-motion.svg"
       },
       {
         "name": "Node JS",
-        "image": "./assets/nodejs.svg"
+        "image": "./assets/skills/nodejs.svg"
       },
       {
         "name": "Express",
-        "image": "./assets/express.svg"
+        "image": "./assets/skills/express.svg"
       },
       {
         "name": "PostgreSQL",
-        "image": "./assets/postgresql.svg"
+        "image": "./assets/skills/postgresql.svg"
       },
       {
         "name": "Sequelize",
-        "image": "./assets/sequelize.svg"
+        "image": "./assets/skills/sequelize.svg"
       },
       {
         "name": "GIT",
-        "image": "./assets/git.svg"
+        "image": "./assets/skills/git.svg"
       },
       {
         "name": "Figma",
-        "image": "./assets/figma.svg"
+        "image": "./assets/skills/figma.svg"
       }
     ]
   },
