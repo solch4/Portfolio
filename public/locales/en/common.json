@@ -92,7 +92,7 @@
     "projects": [
       {
         "title": "Food App - Full stack Dev",
-        "image": "./assets/food-app.png",
+        "image": "./assets/projects/food-app.png",
         "description": "FullStack app, you can view +100 recipes. The app allows the user to filter by type of diet, perform various sorts and add recipes to favorites. Also, you can search by name or health score, create a new one, and edit or delete an already created one. Individual project at Henry Bootcamp.",
         "technologies": [
           "React",
@@ -110,7 +110,7 @@
       },
       {
         "title": "World Developers - Front end Dev",
-        "image": "./assets/world-developers.png",
+        "image": "./assets/projects/world-developers.png",
         "description": "E-commerce of a hotel chain focused on hosting developers. It includes authentication, email notifications, payment gateway, searches, filtering, ordering, creation, modification and deletion among other functions. Final group project at Henry Bootcamp.",
         "technologies": [
           "React",
@@ -131,7 +131,7 @@
       },
       {
         "title": "Weather App",
-        "image": "./assets/weather-app.png",
+        "image": "./assets/projects/weather-app.png",
         "description": "Weather application in real time. Allows access to climate data from different cities around the world.",
         "technologies": [
           "React",
@@ -144,7 +144,7 @@
       },
       {
         "title": "Space tourism website",
-        "image": "./assets/space-tourism-website.png",
+        "image": "./assets/projects/space-tourism.png",
         "description": "Solution to the Space tourism website challenge on Frontend Mentor.",
         "technologies": [
           "React",
@@ -157,7 +157,7 @@
       },
       {
         "title": "Metaversus",
-        "image": "./assets/metaversus.png",
+        "image": "./assets/projects/metaversus.png",
         "description": "Modern website with animated transitions to practice Next.JS 13, Tailwind and Framer Motion",
         "technologies": [
           "Next JS",
@@ -171,7 +171,7 @@
       },
       {
         "title": "Dog App - Full stack Dev",
-        "image": "./assets/dog-app.png",
+        "image": "./assets/projects/dog-app.png",
         "description": "Full Stack app, you can view +170 breeds of dogs. The application allows the user to filter by breed, temperament, and perform various sorts. Additionally, you can search by name, create a new breed, and edit or delete an existing one. Individual project at Henry Bootcamp.",
         "technologies": [
           "React",
@@ -189,7 +189,7 @@
       },
       {
         "title": "Memory game",
-        "image": "./assets/memory-game.png",
+        "image": "./assets/projects/memory-game.png",
         "description": "The classic memory game, with a timer and attempt counter",
         "technologies": [
           "HTML",
@@ -203,7 +203,7 @@
       },
       {
         "title": "Calculator",
-        "image": "./assets/calculator.png",
+        "image": "./assets/projects/calculator.png",
         "description": "Simple calculator built with React",
         "technologies": [
           "React",

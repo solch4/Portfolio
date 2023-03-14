@@ -92,7 +92,7 @@
     "projects": [
       {
         "title": "Food App - Full stack Dev",
-        "image": "./assets/food-app.png",
+        "image": "./assets/projects/food-app.png",
         "description": "Aplicación FullStack en la cual se puede visualizar +100 recetas. La aplicación le permite al usuario filtrar por tipo de dieta, realizar diversos ordenamientos y agregar recetas a favoritos. Además, puede buscar por nombre o puntaje de salud, crear una nueva y editar o borrar una ya creada. Proyecto individual en el Bootcamp de soyHenry.",
         "technologies": [
           "React",
@@ -110,7 +110,7 @@
       },
       {
         "title": "World Developers - Front end Dev",
-        "image": "./assets/world-developers.png",
+        "image": "./assets/projects/world-developers.png",
         "description": "E-commerce de cadena hotelera orientado al alojamiento de desarrolladores. Incluye autenticación, notificaciones por mail, pasarela de pago, búsquedas, filtrados, ordenamientos, creación, modificación y borrado entre otras funciones. Proyecto grupal final en el Bootcamp de soyHenry.",
         "technologies": [
           "React",
@@ -131,7 +131,7 @@
       },
       {
         "title": "Weather App",
-        "image": "./assets/weather-app.png",
+        "image": "./assets/projects/weather-app.png",
         "description": "Aplicación del clima en tiempo real. Permite acceder a datos climáticos de distintas ciudades del mundo.",
         "technologies": [
           "React",
@@ -144,7 +144,7 @@
       },
       {
         "title": "Space tourism website",
-        "image": "./assets/space-tourism-website.png",
+        "image": "./assets/projects/space-tourism.png",
         "description": "Solución al desafío Space tourism website en Frontend Mentor.",
         "technologies": [
           "React",
@@ -157,7 +157,7 @@
       },
       {
         "title": "Metaversus",
-        "image": "./assets/metaversus.png",
+        "image": "./assets/projects/metaversus.png",
         "description": "Website moderno con transiciones animadas para practicar Next.JS 13, Tailwind y Framer Motion",
         "technologies": [
           "Next JS",
@@ -171,7 +171,7 @@
       },
       {
         "title": "Dog App - Full stack Dev",
-        "image": "./assets/dog-app.png",
+        "image": "./assets/projects/dog-app.png",
         "description": "Aplicación Full Stack en la cual se puede visualizar +170 razas de perros. La aplicación le permite al usuario filtrar por raza, temperamento y realizar diversos ordenamientos. Además, puede buscar por nombre, crear una raza nueva y editar o borrar una ya existente. Esta aplicación fue desarrollada como proyecto individual en el Bootcamp de soyHenry.",
         "technologies": [
           "React",
@@ -189,7 +189,7 @@
       },
       {
         "title": "Juego de Memoria",
-        "image": "./assets/memory-game.png",
+        "image": "./assets/projects/memory-game.png",
         "description": "El clásico juego de memoria, con cronómetro y conteo de intentos",
         "technologies": [
           "HTML",
@@ -203,7 +203,7 @@
       },
       {
         "title": "Calculadora",
-        "image": "./assets/calculator.png",
+        "image": "./assets/projects/calculator.png",
         "description": "Calculadora simple hecha con React",
         "technologies": [
           "React",
