@@ -5,6 +5,7 @@ import NavBar from "@/components/NavBar";
 import AboutMe from "@/sections/AboutMe";
 import Skills from "@/sections/Skills";
 import Projects from "@/sections/Projects";
+import Contact from "@/sections/Contact";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -20,6 +21,7 @@ export default function Page() {
       <AboutMe />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   );
 }

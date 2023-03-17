@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  @apply shadow-none outline-dotted outline-2 outline-neutral-900 outline-offset-1;
+}
+
 h1,
 h2,
 h3,
@@ -25,4 +33,12 @@ h3 {
 
 .gradient {
   @apply bg-gradient-to-r from-secondary-50 to-primary-50
+}
+
+.form-field {
+  @apply grid gap-2 w-full;
+}
+
+.form-input {
+  @apply bg-terciary-50 p-4 min-h-[3.5rem] w-full;
 }

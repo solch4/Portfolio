@@ -218,11 +218,32 @@
   },
   "contactSection": {
     "title": "Contacto",
-    "text": "Si quieres dejar feedback, hacer una propuesta o simplemente saludar, ¡me encantaría saber de ti! Completa tu información en el siguiente formulario.",
+    "text": "Si quieres dejar feedback, hacer una propuesta laboral o simplemente saludar, ¡me encantaría saber de ti! Por favor, completa el formulario a continuación y me pondré en contacto a la brevedad.",
+    "socials": [
+      {
+        "name": "GitHub",
+        "username": "solch4",
+        "link": "https://github.com/solch4",
+        "icon": "./assets/socials/github.svg"
+      },
+      {
+        "name": "LinkedIn",
+        "username": "Sol Maldonado",
+        "link": "https://www.linkedin.com/in/sol-maldonado-fullstack/",
+        "icon": "./assets/socials/linkedin.svg"
+      },
+      {
+        "name": "Email",
+        "username": "sol.maldonado.0209@gmail.com",
+        "link": "mailto:sol.maldonado.0209@gmail.com",
+        "icon": "./assets/socials/email.svg"
+      }
+    ],
     "form": {
       "name": "Nombre",
       "email": "Email",
-      "message": "Mensaje"
+      "message": "Mensaje",
+      "send": "Enviar email"
     }
   },
   "footer": {
