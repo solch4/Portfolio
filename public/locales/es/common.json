@@ -247,6 +247,23 @@
     }
   },
   "footer": {
-    "text": "© 2023 | Diseñado y desarrollado con ❤ por Sol"
+    "text": "© 2023 | Diseñado y desarrollado con ❤ por Sol",
+    "socials": [
+      {
+        "name": "GitHub",
+        "link": "https://github.com/solch4",
+        "icon": "./assets/socials/github.svg"
+      },
+      {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/sol-maldonado-fullstack/",
+        "icon": "./assets/socials/linkedin.svg"
+      },
+      {
+        "name": "Email",
+        "link": "mailto:sol.maldonado.0209@gmail.com",
+        "icon": "./assets/socials/email.svg"
+      }
+    ]
   }
 }
