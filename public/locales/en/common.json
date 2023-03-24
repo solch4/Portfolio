@@ -214,7 +214,8 @@
           "github": "https://github.com/solch4/Calculator-App"
         }
       }
-    ]
+    ],
+    "loadMoreProjectsBtn": "Load more projects"
   },
   "contactSection": {
     "title": "Contact",
