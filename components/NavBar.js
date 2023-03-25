@@ -123,7 +123,9 @@ export default function NavBar() {
               </Menu>
               {Object.keys(nav).map((section) => (
                 <li key={section}>
-                  <Link href={`#${section}`}>{t(nav[section])}</Link>
+                  <Link href={`#${section}`} scroll={false}>
+                    {nav[section]}
+                  </Link>
                 </li>
               ))}
             </ul>
