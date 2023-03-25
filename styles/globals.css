@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+button {
+  touch-action: manipulation;
+}
+
 a:focus-visible,
 button:focus-visible,
 input:focus-visible,
