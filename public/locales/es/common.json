@@ -7,11 +7,7 @@
     "contact": "Contacto"
   },
   "homeSection": {
-    "title": [
-      "Hola! Soy",
-      "Sol Maldonado,",
-      "Front-End Developer"
-    ]
+    "title": "Hola! Soy\n<1>Sol Maldonado,</1>\nFront-End Developer"
   },
   "aboutSection": {
     "title": "Sobre mí",

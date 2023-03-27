@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Abril_Fatface } from "@next/font/google";
 import { styles } from "@/styles";
-import { useTranslation } from "next-i18next";
+import { Trans } from "next-i18next";
 import illustration from "../public/assets/illustration.svg";
 
 const abrilFatface = Abril_Fatface({
@@ -11,18 +11,23 @@ const abrilFatface = Abril_Fatface({
 });
 
 export default function Home() {
-  const { t } = useTranslation("common");
-
   return (
-    <section id="home" className={`${styles.container} flex flex-col md:flex-row gap-8 md:justify-between items-center`}>
-      <h1 className={`${abrilFatface.variable} text-center md:text-left whitespace-pre-line`}>
-        {t("homeSection.title", { joinArrays: '\n' })}
-      </h1>
-      <Image
-        className="w-full max-w-[464px] flex-1"
-        src={illustration}
-        alt="Illustration of a developer"
-      />
+    <section id="home" className={`${styles.container} grid md:grid-cols-12 gap-y-6 gap-x-4 items-center justify-center`}>
+      <div className="md:col-span-6">
+        <h1 className={`${abrilFatface.variable} text-center md:text-left whitespace-pre-line`}>
+          <Trans i18nKey="homeSection.title">
+            Hi! I'm <span className="text-primary-200">Sol Maldonado</span>,
+            Front-End Developer
+          </Trans>
+        </h1>
+      </div>
+      <div className="md:col-span-5 md:col-start-8">
+        <Image
+          className="w-full max-w-[464px]"
+          src={illustration}
+          alt="Illustration of a developer"
+        />
+      </div>
     </section>
   );
 }
