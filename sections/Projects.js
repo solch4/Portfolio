@@ -38,7 +38,7 @@ export default function Projects() {
       </div>
       {/* load more button */}
       {isLimitBtnVisible && (
-        <div className="place-self-center">
+        <div className="grid md:place-content-center">
           <LargeButton handleClick={loadMoreProjects}>
             {t("projectsSection.loadMoreProjectsBtn")}
           </LargeButton>
