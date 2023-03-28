@@ -18,7 +18,7 @@ export default function NavBar() {
   const [isOpen, setOpen] = useState(false);
   const menuRef = useRef(null);
   const toggleMenu = () => setOpen(!isOpen);
-  useOnClickOutside(menuRef, toggleMenu);
+  useOnClickOutside(menuRef, () => setOpen(false));
   const { t } = useTranslation("common");
   const nav = t("nav", { returnObjects: true });
 
@@ -48,7 +48,7 @@ export default function NavBar() {
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.4, ease: "easeOut" }}
-                className="md:hidden fixed inset-0 bg-neutral-700/50 backdrop-blur-[2px]"
+                className="md:hidden min-h-screen fixed inset-0 bg-neutral-700/50 backdrop-blur-[2px]"
               />
               <m.nav
                 // deshabilito la animación inicial en pantallas md
