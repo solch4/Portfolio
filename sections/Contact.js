@@ -1,13 +1,6 @@
 import { useTranslation } from "next-i18next";
 import { styles } from "@/styles";
-import { Abril_Fatface } from "@next/font/google";
 import ContactForm from "@/components/ContactForm";
-
-const abrilFatface = Abril_Fatface({
-  subsets: ["latin"],
-  variable: "--font-abrilFatface",
-  weight: "400",
-});
 
 export default function Contact() {
   const { t } = useTranslation("common");
@@ -15,7 +8,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className={`${styles.container} ${styles.verticalFlow}`}>
-      <h2 className={abrilFatface.variable}>{t("contactSection.title")}</h2>
+      <h2>{t("contactSection.title")}</h2>
       <div className="grid gap-y-8 gap-x-4 lg:grid-cols-12">
         <div className="lg:col-span-5 grid gap-4 lg:gap-6 place-content-start">
           <p>{t("contactSection.text")}</p>

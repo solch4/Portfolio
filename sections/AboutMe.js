@@ -1,22 +1,15 @@
-import { Abril_Fatface } from "@next/font/google";
 import { styles } from "@/styles";
 import { useTranslation } from "next-i18next";
 import photo from "../public/assets/photo.png";
 import LargeButton from "@/components/LargeButton";
 import Image from "next/image";
 
-const abrilFatface = Abril_Fatface({
-  subsets: ["latin"],
-  variable: "--font-abrilFatface",
-  weight: "400",
-});
-
 export default function AboutMe() {
   const { t } = useTranslation("common");
 
   return (
     <section id="about" className={`${styles.container} grid gap-6 md:gap-12`}>
-      <h2 className={abrilFatface.variable}>{t("aboutSection.title")}</h2>
+      <h2>{t("aboutSection.title")}</h2>
       <div className="grid md:grid-cols-12 gap-y-6 gap-x-4 place-items-center">
         <div className="md:col-span-5">
           <Image

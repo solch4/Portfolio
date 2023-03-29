@@ -1,12 +1,5 @@
 import { useTranslation } from "next-i18next";
-import { Abril_Fatface } from "@next/font/google";
 import { styles } from "@/styles";
-
-const abrilFatface = Abril_Fatface({
-  subsets: ["latin"],
-  variable: "--font-abrilFatface",
-  weight: "400",
-});
 
 export default function Skills() {
   const { t } = useTranslation("common");
@@ -15,7 +8,7 @@ export default function Skills() {
 
   return (
     <section id="skills" className={`${styles.container} grid gap-6 md:gap-12`}>
-      <h2 className={`${abrilFatface.variable}`}>{t("skillsSection.title")}</h2>
+      <h2>{t("skillsSection.title")}</h2>
       <ul className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-6 md:gap-10 lg:gap-16 place-items-center">
         {skills.map((skill) => (
           <li

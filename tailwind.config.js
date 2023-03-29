@@ -63,11 +63,9 @@ module.exports = {
         900: "#0F0B0C",
       },
     },
-    extend: {
-      fontFamily: {
-        poppins: ["var(--font-poppins)", ...fontFamily.sans],
-        abrilFatface: ["var(--font-abrilFatface)", ...fontFamily.serif],
-      },
+    fontFamily: {
+      poppins: ["var(--font-poppins)", ...fontFamily.sans],
+      abrilFatface: ["var(--font-abrilFatface)", ...fontFamily.serif],
     },
   },
   future: {

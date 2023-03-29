@@ -1,11 +1,4 @@
-import { Abril_Fatface } from "@next/font/google";
 import SmallButton from "./SmallButton";
-
-const abrilFatface = Abril_Fatface({
-  subsets: ["latin"],
-  variable: "--font-abrilFatface",
-  weight: "400",
-});
 
 function ProjectCard({ title, image, description, technologies, links }) {
   return (
@@ -18,7 +11,7 @@ function ProjectCard({ title, image, description, technologies, links }) {
         />
       </div>
       <div className="lg:col-span-6 lg:order-first w-full grid gap-4">
-        <h3 className={abrilFatface.variable}>{title}</h3>
+        <h3>{title}</h3>
         <p>{description}</p>
         <ul className="flex flex-wrap gap-2">
           {technologies.map((tech) => (
