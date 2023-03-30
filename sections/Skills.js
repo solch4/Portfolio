@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useTranslation } from "next-i18next";
 import { styles } from "@/styles";
 
@@ -15,11 +16,13 @@ export default function Skills() {
             className="grid gap-4 md:gap-7 place-items-center"
             key={skill.name}
           >
-            <img
-              className="w-full h-[3.5rem] lg:h-[5.5rem]"
+            <Image
               src={skill.image}
               alt=""
               aria-hidden="true"
+              width={0}
+              height={0}
+              className="w-full h-12 sm:h-14 lg:h-[4.5rem]"
             />
             <span className="truncate">{skill.name}</span>
           </li>

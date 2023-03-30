@@ -1,13 +1,17 @@
+import Image from "next/image";
 import SmallButton from "./SmallButton";
 
 function ProjectCard({ title, image, description, technologies, links }) {
   return (
-    <article className="grid gap-4 lg:grid-cols-12 place-items-center" key={title}>
+    <article className="grid gap-4 lg:grid-cols-12 place-items-center">
       <div className="lg:col-span-5 lg:col-start-8 lg:order-last">
-        <img
-          className="w-full max-w-[464px]"
+        <Image
           src={image}
           alt={title}
+          width={0}
+          height={0}
+          sizes="100vw"
+          className="w-full h-auto max-w-[464px]"
         />
       </div>
       <div className="lg:col-span-6 lg:order-first w-full grid gap-4">

@@ -21,7 +21,13 @@ export default function Footer() {
             rel="noreferrer"
             className="hover:underline"
           >
-            <img className="h-6" src={social.icon} alt={social.name} />
+            <Image
+              src={social.icon}
+              alt={social.name}
+              width={0}
+              height={0}
+              className="h-6 w-auto"
+            />
           </a>
         ))}
       </div>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useTranslation } from "next-i18next";
 import { styles } from "@/styles";
 import ContactForm from "@/components/ContactForm";
@@ -21,7 +22,13 @@ export default function Contact() {
               rel="noreferrer"
               className="flex items-center gap-4 truncate hover:underline"
             >
-              <img className="h-6" src={social.icon} alt={social.name} />
+              <Image
+                src={social.icon}
+                alt={social.name}
+                width={0}
+                height={0}
+                className="h-6 w-auto"
+              />
               <span className="overflow-hidden text-ellipsis">
                 {social.username}
               </span>
