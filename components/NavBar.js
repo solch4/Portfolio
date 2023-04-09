@@ -4,7 +4,6 @@ import { useRouter } from "next/router";
 import { styles } from "@/styles";
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment, useRef, useState } from "react";
-import { useTranslation } from "next-i18next";
 import { useWindowSize } from "@/hooks/useWindowSize";
 import { AnimatePresence, motion as m } from "framer-motion";
 import { IconContext } from "react-icons";
@@ -12,14 +11,13 @@ import { CgMenu, CgClose } from "react-icons/cg";
 import { RiTranslate2, RiArrowDropDownLine } from "react-icons/ri";
 import useOnClickOutside from "use-onclickoutside";
 
-export default function NavBar() {
+export default function NavBar({ t }) {
   const window = useWindowSize();
   const { locales } = useRouter();
   const [isOpen, setOpen] = useState(false);
   const menuRef = useRef(null);
   const toggleMenu = () => setOpen(!isOpen);
   useOnClickOutside(menuRef, () => setOpen(false));
-  const { t } = useTranslation("common");
   const nav = t("nav", { returnObjects: true });
 
   return (

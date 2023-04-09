@@ -1,12 +1,9 @@
 import { styles } from "@/styles";
-import { useTranslation } from "next-i18next";
 import photo from "../public/assets/photo.png";
 import LargeButton from "@/components/LargeButton";
 import Image from "next/image";
 
-export default function AboutMe() {
-  const { t } = useTranslation("common");
-
+export default function AboutMe({ t }) {
   return (
     <section id="about" className={`${styles.container} grid gap-6 md:gap-12`}>
       <h2>{t("aboutSection.title")}</h2>

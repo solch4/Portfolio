@@ -1,10 +1,8 @@
 import Image from "next/image";
-import { useTranslation } from "next-i18next";
 import { styles } from "@/styles";
 import logo from "../public/assets/logo.svg";
 
-export default function Footer() {
-  const { t } = useTranslation("common");
+export default function Footer({ t }) {
   const socials = t("footer.socials", { returnObjects: true });
 
   return (

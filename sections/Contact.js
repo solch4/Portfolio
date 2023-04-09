@@ -1,10 +1,8 @@
 import Image from "next/image";
-import { useTranslation } from "next-i18next";
 import { styles } from "@/styles";
 import ContactForm from "@/components/ContactForm";
 
-export default function Contact() {
-  const { t } = useTranslation("common");
+export default function Contact({ t }) {
   const socials = t("contactSection.socials", { returnObjects: true });
 
   return (

@@ -1,10 +1,7 @@
 import Image from "next/image";
-import { useTranslation } from "next-i18next";
 import { styles } from "@/styles";
 
-export default function Skills() {
-  const { t } = useTranslation("common");
-
+export default function Skills({ t }) {
   const skills = t("skillsSection.skills", { returnObjects: true });
 
   return (

@@ -1,5 +1,6 @@
 import { Abril_Fatface, Poppins } from "@next/font/google";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { useTranslation } from "next-i18next";
 import NavBar from "@/components/NavBar";
 import Home from "@/sections/Home";
 import AboutMe from "@/sections/AboutMe";
@@ -21,15 +22,17 @@ const poppins = Poppins({
 });
 
 export default function Page() {
+  const { t } = useTranslation("common");
+
   return (
     <div className={`${abrilFatface.variable} ${poppins.variable} font-poppins gradient text-neutral-700`} >
-      <NavBar />
+      <NavBar t={t} />
       <Home />
-      <AboutMe />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+      <AboutMe t={t} />
+      <Skills t={t} />
+      <Projects t={t} />
+      <Contact t={t} />
+      <Footer t={t} />
     </div>
   );
 }

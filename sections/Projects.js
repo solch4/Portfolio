@@ -1,11 +1,9 @@
 import { useState } from "react";
-import { useTranslation } from "next-i18next";
 import { styles } from "@/styles";
 import ProjectCard from "@/components/ProjectCard";
 import LargeButton from "@/components/LargeButton";
 
-export default function Projects() {
-  const { t } = useTranslation("common");
+export default function Projects({ t }) {
   const projects = t("projectsSection.projects", { returnObjects: true });
   const displayedProjects = 3;
   const [limitProjects, setLimitProjects] = useState(displayedProjects);
