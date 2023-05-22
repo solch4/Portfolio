@@ -30,6 +30,10 @@
         "image": "./assets/skills/javascript.svg"
       },
       {
+        "name": "TypeScript",
+        "image": "./assets/skills/typescript.svg"
+      },
+      {
         "name": "React",
         "image": "./assets/skills/react.svg"
       },
@@ -70,11 +74,15 @@
         "image": "./assets/skills/postgresql.svg"
       },
       {
+        "name": "Prisma",
+        "image": "./assets/skills/prisma.svg"
+      },
+      {
         "name": "Sequelize",
         "image": "./assets/skills/sequelize.svg"
       },
       {
-        "name": "GIT",
+        "name": "Git",
         "image": "./assets/skills/git.svg"
       },
       {
