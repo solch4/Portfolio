@@ -134,6 +134,21 @@
         }
       },
       {
+        "title": "Star Wars App",
+        "image": "/assets/projects/star-wars-app.png",
+        "description": "This is a web application developed with React that displays information about Star Wars movies and characters using the SWAPI API. This project was developed as part of a technical challenge to showcase my frontend development skills and apply for a job position as a Frontend Developer.",
+        "technologies": [
+          "TypeScript",
+          "React",
+          "Redux",
+          "Sass"
+        ],
+        "links": {
+          "demo": "https://star-wars-app-solch4.vercel.app/",
+          "github": "https://github.com/solch4/star-wars-app/"
+        }
+      },
+      {
         "title": "Weather App",
         "image": "/assets/projects/weather-app.png",
         "description": "Weather application in real time. Allows access to climate data from different cities around the world.",
