@@ -19,7 +19,7 @@ function ProjectCard({ title, image, description, technologies, links }) {
         <p>{description}</p>
         <ul className="flex flex-wrap gap-2">
           {technologies.map((tech) => (
-            <li className="border px-4 rounded-lg" key={tech}>
+            <li className="border px-2 rounded-lg" key={tech}>
               {tech}
             </li>
           ))}

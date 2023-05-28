@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { styles } from "@/styles";
 import { Trans } from "next-i18next";
-import illustration from "../public/assets/illustration.svg";
+import illustration from "../../public/assets/illustration.svg";
 
 export default function Home() {
   return (

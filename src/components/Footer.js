@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { styles } from "@/styles";
-import logo from "../public/assets/logo.svg";
+import logo from "../../public/assets/logo.svg";
 
 export default function Footer({ t }) {
   const socials = t("footer.socials", { returnObjects: true });

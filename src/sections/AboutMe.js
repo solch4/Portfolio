@@ -1,5 +1,5 @@
 import { styles } from "@/styles";
-import photo from "../public/assets/photo.png";
+import photo from "../../public/assets/photo.png";
 import LargeButton from "@/components/LargeButton";
 import Image from "next/image";
 
