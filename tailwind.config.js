@@ -63,8 +63,8 @@ module.exports = {
       },
     },
     fontFamily: {
-      poppins: ["var(--font-poppins)", ...fontFamily.sans],
-      abrilFatface: ["var(--font-abrilFatface)", ...fontFamily.serif],
+      nunitoSans: ["var(--font-nunitoSans)", ...fontFamily.sans],
+      nunito: ["var(--font-nunito)", ...fontFamily.serif],
     },
   },
   future: {

@@ -4,10 +4,6 @@ export default function Document() {
   return (
     <Html lang="es" style={{ scrollBehavior: "smooth" }}>
       <Head>
-        <link
-          rel="stylesheet"
-          href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-        />
         <meta
           name="description"
           content="Sol Maldonado - Front End Developer"

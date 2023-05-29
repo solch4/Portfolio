@@ -1,4 +1,4 @@
-import { Abril_Fatface, Poppins } from "@next/font/google";
+import { Nunito, Nunito_Sans } from "@next/font/google";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import NavBar from "@/components/NavBar";
@@ -9,15 +9,15 @@ import Projects from "@/sections/Projects";
 import Contact from "@/sections/Contact";
 import Footer from "@/components/Footer";
 
-const abrilFatface = Abril_Fatface({
+const nunito = Nunito({
   subsets: ["latin"],
-  variable: "--font-abrilFatface",
-  weight: "400",
+  variable: "--font-nunito",
+  weight: "800",
 });
 
-const poppins = Poppins({
+const nunitoSans = Nunito_Sans({
   subsets: ["latin"],
-  variable: "--font-poppins",
+  variable: "--font-nunitoSans",
   weight: "400",
 });
 
@@ -25,7 +25,7 @@ export default function Page() {
   const { t } = useTranslation("common");
 
   return (
-    <div className={`${abrilFatface.variable} ${poppins.variable} font-poppins gradient text-neutral-700`} >
+    <div className={`${nunito.variable} ${nunitoSans.variable} font-nunitoSans gradient text-neutral-700`} >
       <NavBar t={t} />
       <Home />
       <AboutMe t={t} />
