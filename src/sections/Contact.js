@@ -9,7 +9,7 @@ export default function Contact({ t }) {
     <section id="contact" className={`${styles.container} ${styles.verticalFlow}`}>
       <h2>{t("contactSection.title")}</h2>
       <div className="grid gap-y-8 gap-x-4 lg:grid-cols-12">
-        <div className="lg:col-span-5 grid gap-4 lg:gap-6 place-content-start">
+        <div className="lg:col-span-5 space-y-4 lg:space-y-6">
           <p>{t("contactSection.text")}</p>
           {socials.map((social) => (
             <a

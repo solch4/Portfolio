@@ -8,8 +8,8 @@ export default function Footer({ t }) {
   return (
     <div className={`${styles.innerWidth} flex flex-col md:flex-row gap-4 items-center justify-between py-8 md:py-6 mt-6`}>
       <Image src={logo} alt="Logo" className="w-auto h-8" />
-      <small className="text-xs text-center">{t("footer.text")}</small>
-      <div className="flex gap-6">
+      <small className="text-sm text-center">{t("footer.text")}</small>
+      <div className="flex gap-4">
         {socials.map((social) => (
           <a
             key={social.name}

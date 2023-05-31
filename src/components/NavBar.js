@@ -45,7 +45,7 @@ export default function NavBar({ t }) {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
-                transition={{ duration: 0.4, ease: "easeOut" }}
+                transition={{ duration: 0.2, ease: "easeOut" }}
                 className="md:hidden min-h-screen fixed inset-0 bg-neutral-700/50 backdrop-blur-[2px]"
               />
               <m.nav
@@ -54,7 +54,7 @@ export default function NavBar({ t }) {
                 initial={{ x: window.width >= 768 ? 0 : "100%" }}
                 animate={{ x: 0 }}
                 exit={{ x: "100%" }}
-                transition={{ duration: 0.4, ease: "easeOut" }}
+                transition={{ duration: 0.2, ease: "easeOut" }}
                 ref={menuRef}
                 className="gradient md:bg-none w-2/3 md:w-auto h-screen md:h-auto grid content-start md:place-content-center absolute md:static right-0 top-0 py-6 px-8 gap-12 md:p-0"
               >
@@ -83,17 +83,13 @@ export default function NavBar({ t }) {
                       <Menu.Items className="gradient flex flex-col gap-2 p-2 absolute left-0 mt-2 rounded-lg min-w-[10rem] shadow-md shadow-neutral-700/20">
                         {locales.map((l) => (
                           <Menu.Item key={l}>
-                            {({ active }) => (
-                              <Link
-                                className={`${
-                                  active && "bg-primary-100"
-                                } p-4 inline-block rounded-lg transition`}
-                                href={"/"}
-                                locale={l}
-                              >
-                                {l}
-                              </Link>
-                            )}
+                            <Link
+                              className="hover:bg-primary-100 p-4 inline-block rounded-lg transition"
+                              href="/"
+                              locale={l}
+                            >
+                              {l}
+                            </Link>
                           </Menu.Item>
                         ))}
                       </Menu.Items>

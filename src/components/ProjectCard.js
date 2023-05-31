@@ -14,17 +14,17 @@ function ProjectCard({ title, image, description, technologies, links }) {
           className="w-full h-auto max-w-[464px]"
         />
       </div>
-      <div className="lg:col-span-6 lg:order-first w-full grid gap-4">
+      <div className="lg:col-span-6 lg:order-first w-full space-y-4">
         <h3>{title}</h3>
         <p>{description}</p>
-        <ul className="flex flex-wrap gap-2">
+        <ul className="flex flex-wrap gap-1">
           {technologies.map((tech) => (
-            <li className="border px-2 rounded-lg" key={tech}>
+            <li className="border px-2 rounded-full" key={tech}>
               {tech}
             </li>
           ))}
         </ul>
-        <div className="flex gap-4">
+        <div className="flex gap-2">
           {Object.keys(links).map((link) => (
             <SmallButton key={link} link={links[link]}>
               {link.charAt(0).toUpperCase() + link.slice(1)}
