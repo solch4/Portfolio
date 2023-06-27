@@ -2,11 +2,11 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html lang="es" style={{ scrollBehavior: "smooth" }}>
+    <Html lang="es" className="scroll-smooth">
       <Head>
         <meta
           name="description"
-          content="Sol Maldonado - Front End Developer"
+          content="Sol Maldonado - Full Stack Developer con fuerte orientación al Frontend graduada del bootcamp Henry"
         />
         <link rel="icon" type="image/svg" href="/favicon.svg" />
       </Head>

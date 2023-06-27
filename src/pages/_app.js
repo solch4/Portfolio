@@ -6,7 +6,7 @@ export function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Sol Maldonado - Front End Dev</title>
+        <title>Sol Maldonado - Full Stack Developer</title>
       </Head>
       <Component {...pageProps} />
     </>
