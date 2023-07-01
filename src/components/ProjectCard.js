@@ -11,7 +11,7 @@ function ProjectCard({ title, image, description, technologies, links }) {
           width={0}
           height={0}
           sizes="100vw"
-          className="w-full h-auto max-w-[464px]"
+          className="w-full h-auto max-w-[464px] rounded-2xl"
         />
       </div>
       <div className="lg:col-span-6 lg:order-first w-full space-y-4">
