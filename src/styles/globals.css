@@ -42,3 +42,8 @@ h3 {
 .form-input {
   @apply bg-terciary-50 p-4 min-h-[3.5rem] w-full;
 }
+
+/* funciona en pocos navegadores pero es un golazo */
+.text-wrap-balance {
+  text-wrap: balance;
+}

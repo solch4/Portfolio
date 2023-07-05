@@ -7,8 +7,9 @@
     "contact": "Contact"
   },
   "homeSection": {
-    "title": "Hi! I'm\n<1>Sol Maldonado,</1>\nFull Stack Developer"
-  },
+    "greeting": "Hi! I'm <1>Sol Maldonado</1>",
+    "job": "Full Stack Developer"
+},
   "aboutSection": {
     "title": "About me",
     "text": "Hi! I'm Sol Maldonado and I'm a Full Stack Developer with a strong Front-End orientation. I graduated as a Full Stack Developer from the Henry bootcamp, which consists of an intensive course with +800 hours of programming based on practices and real projects. I'm a person with discipline, persistence and attitude that seeks to gain experience in the IT sector. I enjoy teamwork and learning new things. I am looking for new challenges, I am open to all opportunities that allow me to grow and continue training.",

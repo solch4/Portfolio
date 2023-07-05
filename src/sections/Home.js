@@ -1,25 +1,19 @@
-import Image from "next/image";
 import { styles } from "@/styles";
 import { Trans } from "next-i18next";
-import illustration from "../../public/assets/illustration.svg";
 
-export default function Home() {
+export default function Home({ t }) {
   return (
-    <section id="home" className={`${styles.container} grid md:grid-cols-12 gap-y-6 gap-x-4 items-center justify-center`}>
-      <div className="md:col-span-6">
-        <h1 className="text-center md:text-left whitespace-pre-line">
-          <Trans i18nKey="homeSection.title">
-            Hi! I'm <span className="text-primary-200">Sol Maldonado</span>,
-            Front-End Developer
+    <section id="home" className={`${styles.container} min-h-[80vh] grid place-content-center`}>
+      <div className="mx-auto w-fit">
+        <h1 className="text-wrap-balance text-left text-3xl md:text-[2rem] leading-none grid gap-4">
+          <Trans i18nKey="homeSection.greeting">
+            ¡Hola! Soy
+            <span className="text-primary-200 text-[2.75rem] md:text-7xl lg:text-8xl block">
+              Sol Maldonado
+            </span>
           </Trans>
+          {`<${t("homeSection.job")} />`}
         </h1>
-      </div>
-      <div className="md:col-span-5 md:col-start-8">
-        <Image
-          className="w-full max-w-[464px]"
-          src={illustration}
-          alt="Illustration of a developer"
-        />
       </div>
     </section>
   );

@@ -7,7 +7,8 @@
     "contact": "Contacto"
   },
   "homeSection": {
-    "title": "¡Hola! Soy\n<1>Sol Maldonado,</1>\nFull Stack Developer"
+    "greeting": "¡Hola! Soy <1>Sol Maldonado</1>",
+    "job": "Desarrolladora Full Stack"
   },
   "aboutSection": {
     "title": "Sobre mí",

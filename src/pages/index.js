@@ -27,7 +27,7 @@ export default function Page() {
   return (
     <div className={`${nunito.variable} ${nunitoSans.variable} font-nunitoSans gradient text-neutral-700`} >
       <NavBar t={t} />
-      <Home />
+      <Home t={t} />
       <AboutMe t={t} />
       <Skills t={t} />
       <Projects t={t} />
