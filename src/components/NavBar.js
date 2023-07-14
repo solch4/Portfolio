@@ -80,7 +80,7 @@ export default function NavBar({ t }) {
                       leaveFrom="transform opacity-100 scale-100"
                       leaveTo="transform opacity-0 scale-95"
                     >
-                      <Menu.Items className="gradient flex flex-col gap-2 p-2 absolute left-0 mt-2 rounded-lg min-w-[10rem] shadow-md shadow-neutral-700/20">
+                      <Menu.Items className="gradient flex flex-col p-2 absolute left-0 mt-2 rounded-lg min-w-[10rem] shadow-md shadow-neutral-700/20">
                         {locales.map((l) => (
                           <Menu.Item key={l}>
                             <Link

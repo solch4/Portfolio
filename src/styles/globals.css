@@ -20,15 +20,15 @@ h6 {
 }
 
 h1 {
-  @apply text-[2.5rem] lg:text-[3.5rem]
+  @apply text-[2.5rem] lg:text-[3.5rem] leading-none;
 }
 
 h2 {
-  @apply text-[2rem] md:text-[2.5rem]
+  @apply text-[2rem] md:text-[2.5rem] leading-none;
 }
 
 h3 {
-  @apply text-[1.5rem] md:text-[2rem]
+  @apply text-[1.5rem] md:text-[2rem] leading-none;
 }
 
 .gradient {
@@ -36,7 +36,7 @@ h3 {
 }
 
 .form-field {
-  @apply grid gap-2 w-full;
+  @apply grid gap-1 w-full;
 }
 
 .form-input {

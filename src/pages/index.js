@@ -12,12 +12,14 @@ import Footer from "@/components/Footer";
 const nunito = Nunito({
   subsets: ["latin"],
   variable: "--font-nunito",
+  display: "swap",
   weight: "800",
 });
 
 const nunitoSans = Nunito_Sans({
   subsets: ["latin"],
   variable: "--font-nunitoSans",
+  display: "swap",
   weight: "400",
 });
 
