@@ -1,38 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌞 Portfolio personal 🌞
 
-## Getting Started
+![portfolio](https://github.com/solch4/Portfolio/assets/101352684/543bfb67-0e5d-4c7a-8b92-f51739340d2e)
 
-First, run the development server:
+¡Bienvenido/a a mi portfolio! Aquí puedes encontrar el código y los archivos necesarios para mi portfolio web, donde muestro algunos de mis proyectos, habilidades y experiencia como Full Stack Web Developer.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## 🔗 Links
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Demo: puedes ver mi portfolio [aquí](https://solmaldonado.vercel.app/).
+- Diseño: el diseño visual de la aplicación fue creado utilizando Figma. Puedes ver el diseño y los componentes [aquí](https://www.figma.com/file/GX3OXMPBmTcoIE8bX4jkFQ/Portfolio?type=design&node-id=0%3A1&t=OQ8JwFH4su9JDvzV-1).
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 💻 Tecnologías
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+La aplicación se encuentra desarrollada con NextJS, Tailwind CSS y i18next. Deploy hecho en Vercel.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 👩‍💻 Instalación
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Clona este repositorio en tu máquina local.
 
-## Learn More
+`git clone https://github.com/solch4/Portfolio.git`
 
-To learn more about Next.js, take a look at the following resources:
+Entra al directorio del proyecto.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`cd Portfolio`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Instala las dependencias del proyecto.
 
-## Deploy on Vercel
+`npm install`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Inicia la aplicación.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+`npm run dev`
+
+¡Listo! La aplicación estará disponible en [http://localhost:3000](http://localhost:3000).
+
+## 📧 Contacto
+
+Si deseas contactarme, puedes hacerlo a través de mi email: sol.maldonado.0209@gmail.com
