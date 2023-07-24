@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import LargeButton from "./LargeButton";
+import { styles } from "@/styles";
 
 export default function ContactForm({ t }) {
   const form = useRef();
@@ -25,33 +26,52 @@ export default function ContactForm({ t }) {
   };
 
   return (
-    <form className="grid gap-6 md:place-items-start" ref={form} onSubmit={sendEmail}>
+    <form
+      className="grid gap-6 md:place-items-start"
+      ref={form}
+      onSubmit={sendEmail}
+    >
       {/* name */}
-      <div className="form-field">
-        <label htmlFor="user_name">{t("contactSection.form.name")}</label>
+      <div className="relative w-full">
         <input
-          className="form-input"
+          className={styles.input}
+          placeholder=" "
           type="text"
           id="user_name"
           name="user_name"
           required
         />
+        <label className={styles.label} htmlFor="user_name">
+          {t("contactSection.form.name")}
+        </label>
       </div>
       {/* email */}
-      <div className="form-field">
-        <label htmlFor="user_email">{t("contactSection.form.email")}</label>
+      <div className="relative w-full">
         <input
-          className="form-input"
+          className={styles.input}
+          placeholder=" "
           type="email"
           id="user_email"
           name="user_email"
           required
         />
+        <label className={styles.label} htmlFor="user_email">
+          {t("contactSection.form.email")}
+        </label>
       </div>
       {/* message */}
-      <div className="form-field">
-        <label htmlFor="message">{t("contactSection.form.message")}</label>
-        <textarea className="form-input" id="message" name="message" required />
+      <div className="relative w-full">
+        <textarea
+          className={styles.input}
+          placeholder=" "
+          id="message"
+          name="message"
+          rows="4"
+          required
+        />
+        <label className={styles.label} htmlFor="message">
+          {t("contactSection.form.message")}
+        </label>
       </div>
       {/* send btn */}
       <LargeButton>{t("contactSection.form.send")}</LargeButton>
