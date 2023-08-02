@@ -12,7 +12,7 @@
   },
   "aboutSection": {
     "title": "Sobre mí",
-    "text": "Hola! Soy Sol Maldonado y soy Full Stack Developer con fuerte orientación al Front-End. Me gradué como Full Stack Developer del bootcamp Soy Henry, el cual consta de un curso intensivo con +800 horas de programación basado en prácticas y proyectos reales. Soy una persona con disciplina, persistencia y actitud que busca sumar experiencia en el sector IT. Disfruto el trabajo en equipo y aprender cosas nuevas. Me encuentro en búsqueda de nuevos desafíos, estoy abierta a todas las oportunidades que me permitan crecer y seguir capacitándome.",
+    "text": "¡Hola! Soy Sol y soy Desarrolladora Full Stack con una fuerte orientación al Frontend graduada del bootcamp Henry. Hice mi secundaria en la orientación de Comunicación, Arte y Diseño, lo que despertó mi pasión por el Frontend al comenzar a estudiar programación, ya que combina diseño con funcionalidad. Soy una persona curiosa, autodidacta, y detallista. Disfruto el trabajo en equipo y aprender cosas nuevas.",
     "button": "Descargar CV"
   },
   "skillsSection": {
@@ -98,7 +98,7 @@
       {
         "title": "Food App - Full stack Dev",
         "image": "/assets/projects/food-app.png",
-        "description": "Aplicación FullStack en la cual se puede visualizar +100 recetas. La aplicación le permite al usuario filtrar por tipo de dieta, realizar diversos ordenamientos y agregar recetas a favoritos. Además, puede buscar por nombre o puntaje de salud, crear una nueva y editar o borrar una ya creada. Proyecto individual en el Bootcamp de soyHenry.",
+        "description": "Aplicación web Full Stack con +100 recetas. El usuario puede filtrarlas por dieta, ordenarlas y agregarlas a favoritos. También puede buscar por nombre o puntaje de salud, crear, editar o borrar recetas ya creadas. Proyecto individual en el Bootcamp Henry.",
         "technologies": [
           "React",
           "Redux",
@@ -116,7 +116,7 @@
       {
         "title": "World Developers - Front end Dev",
         "image": "/assets/projects/world-developers.png",
-        "description": "E-commerce de cadena hotelera orientado al alojamiento de desarrolladores. Incluye autenticación, notificaciones por mail, pasarela de pago, búsquedas, filtrados, ordenamientos, creación, modificación y borrado entre otras funciones. Proyecto grupal final en el Bootcamp de soyHenry.",
+        "description": "E-commerce para cadena hotelera. Incluye autenticación, notificaciones por mail, pasarela de pago, búsquedas, filtrados, ordenamientos, creación, modificación y borrado, entre otras funciones. Proyecto grupal final en el Bootcamp Henry.",
         "technologies": [
           "React",
           "Redux",
@@ -137,7 +137,7 @@
       {
         "title": "Star Wars App",
         "image": "/assets/projects/star-wars-app.png",
-        "description": "Esta es una aplicación web desarrollada con React que muestra información sobre las películas y los personajes de Star Wars utilizando la API de SWAPI. Este proyecto fue desarrollado como parte de un desafío técnico para demostrar mis habilidades en el desarrollo frontend y aspirar a un puesto de trabajo como Frontend Developer.",
+        "description": "Aplicación web sobre las películas y los personajes de Star Wars utilizando la API de SWAPI. Los personajes se pueden filtrar por color de ojos y género. Lazy load implementado para el routing. Diseño responsive hecho en Figma.",
         "technologies": [
           "TypeScript",
           "React",
@@ -178,7 +178,7 @@
       {
         "title": "Metaversus",
         "image": "/assets/projects/metaversus.png",
-        "description": "Website moderno con transiciones animadas para practicar Next.JS 13, Tailwind y Framer Motion",
+        "description": "Website moderno con transiciones animadas para practicar Next JS, Tailwind y Framer Motion.",
         "technologies": [
           "Next JS",
           "Tailwind",
@@ -192,7 +192,7 @@
       {
         "title": "Dog App - Full stack Dev",
         "image": "/assets/projects/dog-app.png",
-        "description": "Aplicación Full Stack en la cual se puede visualizar +170 razas de perros. La aplicación le permite al usuario filtrar por raza, temperamento y realizar diversos ordenamientos. Además, puede buscar por nombre, crear una raza nueva y editar o borrar una ya existente. Esta aplicación fue desarrollada como proyecto individual en el Bootcamp de soyHenry.",
+        "description": "Aplicación web Full Stack con +170 razas de perros. El usuario puede filtrar por raza o temperamento y ordenarlas. También puede buscar por nombre, crear, editar o borrar razas ya creadas. Proyecto individual en el Bootcamp Henry.",
         "technologies": [
           "React",
           "Redux",
@@ -210,7 +210,7 @@
       {
         "title": "Juego de Memoria",
         "image": "/assets/projects/memory-game.png",
-        "description": "El clásico juego de memoria, con cronómetro y conteo de intentos",
+        "description": "El clásico juego de memoria, con cronómetro y conteo de intentos.",
         "technologies": [
           "HTML",
           "CSS Puro",
@@ -219,19 +219,6 @@
         "links": {
           "demo": "https://solch4.github.io/Juego-de-Memoria/",
           "github": "https://github.com/solch4/Juego-de-Memoria"
-        }
-      },
-      {
-        "title": "Calculadora",
-        "image": "/assets/projects/calculator.png",
-        "description": "Calculadora simple hecha con React",
-        "technologies": [
-          "React",
-          "CSS Puro"
-        ],
-        "links": {
-          "demo": "https://solch4.github.io/Calculator-App/",
-          "github": "https://github.com/solch4/Calculator-App"
         }
       }
     ],

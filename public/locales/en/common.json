@@ -12,7 +12,7 @@
 },
   "aboutSection": {
     "title": "About me",
-    "text": "Hi! I'm Sol Maldonado and I'm a Full Stack Developer with a strong Front-End orientation. I graduated as a Full Stack Developer from the Henry bootcamp, which consists of an intensive course with +800 hours of programming based on practices and real projects. I'm a person with discipline, persistence and attitude that seeks to gain experience in the IT sector. I enjoy teamwork and learning new things. I am looking for new challenges, I am open to all opportunities that allow me to grow and continue training.",
+    "text": "Hi! I'm Sol and I'm a Full Stack Developer with a strong focus on Frontend, graduated from the Henry bootcamp. My high school education was oriented towards Communication, Art, and Design, which sparked my passion for Frontend development when I started programming, as it combines design with functionality. I'm a curious, self-taught, and detail-oriented person. I enjoy teamwork and learning new things.",
     "button": "Download CV"
   },
   "skillsSection": {
@@ -98,7 +98,7 @@
       {
         "title": "Food App - Full stack Dev",
         "image": "/assets/projects/food-app.png",
-        "description": "FullStack app, you can view +100 recipes. The app allows the user to filter by type of diet, perform various sorts and add recipes to favorites. Also, you can search by name or health score, create a new one, and edit or delete an already created one. Individual project at Henry Bootcamp.",
+        "description": "Full Stack web app with +100 recipes. The user can filter them by diet, sort them, and add them to favorites. They can also search by name or health score, create, edit, or delete already existing recipes. Individual project at the Henry Bootcamp.",
         "technologies": [
           "React",
           "Redux",
@@ -116,7 +116,7 @@
       {
         "title": "World Developers - Front end Dev",
         "image": "/assets/projects/world-developers.png",
-        "description": "E-commerce of a hotel chain focused on hosting developers. It includes authentication, email notifications, payment gateway, searches, filtering, ordering, creation, modification and deletion among other functions. Final group project at Henry Bootcamp.",
+        "description": "E-commerce for a hotel chain. It includes authentication, email notifications, payment gateway, searches, filtering, sorting, creation, modification, and deletion, among other features. Final group project at the Henry Bootcamp.",
         "technologies": [
           "React",
           "Redux",
@@ -137,7 +137,7 @@
       {
         "title": "Star Wars App",
         "image": "/assets/projects/star-wars-app.png",
-        "description": "This is a web application developed with React that displays information about Star Wars movies and characters using the SWAPI API. This project was developed as part of a technical challenge to showcase my frontend development skills and apply for a job position as a Frontend Developer.",
+        "description": "Web application about Star Wars movies and characters using SWAPI, a Star Wars API. Characters can be filtered by eye color and gender. Lazy load implemented for routing. Responsive design created in Figma.",
         "technologies": [
           "TypeScript",
           "React",
@@ -178,7 +178,7 @@
       {
         "title": "Metaversus",
         "image": "/assets/projects/metaversus.png",
-        "description": "Modern website with animated transitions to practice Next.JS 13, Tailwind and Framer Motion",
+        "description": "Modern website with animated transitions to practice Next JS, Tailwind and Framer Motion.",
         "technologies": [
           "Next JS",
           "Tailwind",
@@ -192,7 +192,7 @@
       {
         "title": "Dog App - Full stack Dev",
         "image": "/assets/projects/dog-app.png",
-        "description": "Full Stack app, you can view +170 breeds of dogs. The application allows the user to filter by breed, temperament, and perform various sorts. Additionally, you can search by name, create a new breed, and edit or delete an existing one. Individual project at Henry Bootcamp.",
+        "description": "Full Stack web app, with +170 dog breeds. The user can filter by breed or temperament and sort them. They can also search by name, create, edit, or delete already existing breeds. Individual project at the Henry Bootcamp.",
         "technologies": [
           "React",
           "Redux",
@@ -210,7 +210,7 @@
       {
         "title": "Memory game",
         "image": "/assets/projects/memory-game.png",
-        "description": "The classic memory game, with a timer and attempt counter",
+        "description": "The classic memory game, with a timer and attempt counter.",
         "technologies": [
           "HTML",
           "Pure CSS",
@@ -219,19 +219,6 @@
         "links": {
           "demo": "https://solch4.github.io/Juego-de-Memoria/",
           "github": "https://github.com/solch4/Juego-de-Memoria"
-        }
-      },
-      {
-        "title": "Calculator",
-        "image": "/assets/projects/calculator.png",
-        "description": "Simple calculator built with React",
-        "technologies": [
-          "React",
-          "Pure CSS"
-        ],
-        "links": {
-          "demo": "https://solch4.github.io/Calculator-App/",
-          "github": "https://github.com/solch4/Calculator-App"
         }
       }
     ],
