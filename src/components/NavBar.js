@@ -1,19 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
-import { useRouter } from "next/router";
 import { styles } from "@/styles";
-import { Menu, Transition } from "@headlessui/react";
-import { Fragment, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { useWindowSize } from "@/hooks/useWindowSize";
 import { AnimatePresence, motion as m } from "framer-motion";
-import { IconContext } from "react-icons";
 import { CgMenu, CgClose } from "react-icons/cg";
-import { RiTranslate2, RiArrowDropDownLine } from "react-icons/ri";
 import useOnClickOutside from "use-onclickoutside";
+import LanguageSelector from "./LanguageSelector";
 
 export default function NavBar({ t }) {
   const window = useWindowSize();
-  const { locales } = useRouter();
   const [isOpen, setOpen] = useState(false);
   const menuRef = useRef(null);
   const toggleMenu = () => setOpen(!isOpen);
@@ -58,43 +54,17 @@ export default function NavBar({ t }) {
                 ref={menuRef}
                 className="gradient md:bg-none w-2/3 md:w-auto h-screen md:h-auto grid content-start md:place-content-center absolute md:static right-0 top-0 py-6 px-8 gap-12 md:p-0"
               >
-                <button className="md:hidden place-self-end" onClick={toggleMenu}>
+                <button
+                  className="md:hidden place-self-end"
+                  onClick={toggleMenu}
+                >
                   <span className="sr-only">Close menu</span>
                   <CgClose size={24} />
                 </button>
                 <ul className="flex flex-col md:flex-row md:items-center gap-8 md:gap-4">
-                  <Menu as="li" className="relative">
-                    <Menu.Button className="px-1 flex gap-1 items-center">
-                      <span className="sr-only">Choose language</span>
-                      <IconContext.Provider value={{ size: "20px" }}>
-                        <RiTranslate2 />
-                        <RiArrowDropDownLine />
-                      </IconContext.Provider>
-                    </Menu.Button>
-                    <Transition
-                      as={Fragment}
-                      enter="transition ease-out duration-100"
-                      enterFrom="transform opacity-0 scale-95"
-                      enterTo="transform opacity-100 scale-100"
-                      leave="transition ease-in duration-75"
-                      leaveFrom="transform opacity-100 scale-100"
-                      leaveTo="transform opacity-0 scale-95"
-                    >
-                      <Menu.Items className="gradient flex flex-col p-2 absolute left-0 mt-2 rounded-lg min-w-[10rem] shadow-md shadow-neutral-700/20">
-                        {locales.map((l) => (
-                          <Menu.Item key={l}>
-                            <Link
-                              className="hover:bg-primary-100 p-4 inline-block rounded-lg transition"
-                              href="/"
-                              locale={l}
-                            >
-                              {l}
-                            </Link>
-                          </Menu.Item>
-                        ))}
-                      </Menu.Items>
-                    </Transition>
-                  </Menu>
+                  <li className="relative">
+                    <LanguageSelector />
+                  </li>
                   {Object.keys(nav).map((section) => (
                     <li key={section}>
                       <Link href={`#${section}`} scroll={false}>
