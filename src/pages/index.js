@@ -24,13 +24,13 @@ const nunitoSans = Nunito_Sans({
 });
 
 export default function Page() {
-  const { t } = useTranslation("common");
+  const { t, i18n } = useTranslation("common");
 
   return (
     <div className={`${nunito.variable} ${nunitoSans.variable} font-nunitoSans gradient text-neutral-700`} >
       <NavBar t={t} />
       <Home t={t} />
-      <AboutMe t={t} />
+      <AboutMe t={t} lang={i18n.language} />
       <Skills t={t} />
       <Projects t={t} />
       <Contact t={t} />
