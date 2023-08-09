@@ -1,35 +1,39 @@
 import { useRef } from "react";
+import { toast } from "react-hot-toast";
 import emailjs from "@emailjs/browser";
 import LargeButton from "./LargeButton";
 import { styles } from "@/styles";
 
 export default function ContactForm({ t }) {
   const form = useRef();
-  const sendEmail = (e) => {
+
+  const sendEmail = async () => {
+    await emailjs.sendForm(
+      process.env.NEXT_PUBLIC_SERVICE_ID,
+      process.env.NEXT_PUBLIC_TEMPLATE_ID,
+      form.current,
+      process.env.NEXT_PUBLIC_PUBLIC_KEY
+    );
+  };
+
+  const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        process.env.NEXT_PUBLIC_SERVICE_ID,
-        process.env.NEXT_PUBLIC_TEMPLATE_ID,
-        form.current,
-        process.env.NEXT_PUBLIC_PUBLIC_KEY
-      )
-      .then(
-        (result) => {
-          alert(result.text);
-        },
-        (error) => {
-          alert(error.text);
-        }
-      );
+    toast.promise(sendEmail(), {
+      loading: t("contactSection.form.loading"),
+      success: () => {
+        form.current.reset();
+        return t("contactSection.form.alert");
+      },
+      error: (err) => err.text,
+    });
   };
 
   return (
     <form
       className="grid gap-6 md:place-items-start"
       ref={form}
-      onSubmit={sendEmail}
+      onSubmit={handleSubmit}
     >
       {/* name */}
       <div className="relative w-full">

@@ -251,7 +251,9 @@
       "name": "Nombre",
       "email": "Email",
       "message": "Mensaje",
-      "send": "Enviar email"
+      "send": "Enviar email",
+      "loading": "Enviando email...",
+      "alert": "¡Email enviado! Te responderé lo antes posible ;)"
     }
   },
   "footer": {

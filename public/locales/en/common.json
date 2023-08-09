@@ -9,7 +9,7 @@
   "homeSection": {
     "greeting": "Hi! I'm <1>Sol Maldonado</1>",
     "job": "Full Stack Developer"
-},
+  },
   "aboutSection": {
     "title": "About me",
     "text": "Hi! I'm Sol and I'm a Full Stack Developer with a strong focus on Frontend, graduated from the Henry bootcamp. My high school education was oriented towards Communication, Art, and Design, which sparked my passion for Frontend development when I started programming, as it combines design with functionality. I'm a curious, self-taught, and detail-oriented person. I enjoy teamwork and learning new things.",
@@ -251,7 +251,9 @@
       "name": "Name",
       "email": "Email",
       "message": "Message",
-      "send": "Send email"
+      "send": "Send email",
+      "loading": "Sending email...",
+      "alert": "Email sent! I'll answer you asap ;)"
     }
   },
   "footer": {
