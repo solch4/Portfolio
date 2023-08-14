@@ -135,6 +135,40 @@
         }
       },
       {
+        "title": "Descuentas",
+        "image": "/assets/projects/descuentas.png",
+        "description": "MVP of an app to save money by obtaining discounts, coupons, and cashback in one place. It includes a landing page and a multi-step registration form.",
+        "technologies": [
+          "React",
+          "React hook form",
+          "Tailwind",
+          "Node JS",
+          "Express",
+          "Sequelize",
+          "MySQL"
+        ],
+        "links": {
+          "demo": "http://temp.descuentas.com/"
+        }
+      },
+      {
+        "title": "Travel explorer",
+        "image": "/assets/projects/travel-explorer.png",
+        "description": "Web application that displays information about tourist destinations using a Mock API. It allows searching by name or location, filtering by category, viewing detailed information about each one, and creating a new one. Responsive design created in Figma.",
+        "technologies": [
+          "TypeScript",
+          "React",
+          "Redux toolkit",
+          "Tailwind",
+          "Jest",
+          "Testing library"
+        ],
+        "links": {
+          "demo": "https://travel-explorer-solch4.vercel.app/",
+          "github": "https://github.com/solch4/Travel-Explorer"
+        }
+      },
+      {
         "title": "Star Wars App",
         "image": "/assets/projects/star-wars-app.png",
         "description": "Web application about Star Wars movies and characters using SWAPI, a Star Wars API. Characters can be filtered by eye color and gender. Lazy load implemented for routing. Responsive design created in Figma.",
@@ -160,19 +194,6 @@
         "links": {
           "demo": "https://solch4.github.io/Weather-App/",
           "github": "https://github.com/solch4/Weather-App"
-        }
-      },
-      {
-        "title": "Space tourism website",
-        "image": "/assets/projects/space-tourism.png",
-        "description": "Solution to the Space tourism website challenge on Frontend Mentor.",
-        "technologies": [
-          "React",
-          "Sass"
-        ],
-        "links": {
-          "demo": "https://space-tourism-solch4.netlify.app/",
-          "github": "https://github.com/solch4/Space-tourism-website"
         }
       },
       {

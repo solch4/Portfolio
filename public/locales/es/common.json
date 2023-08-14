@@ -135,6 +135,40 @@
         }
       },
       {
+        "title": "Descuentas",
+        "image": "/assets/projects/descuentas.png",
+        "description": "MVP de una app para ahorrar dinero obteneniendo descuentos, cupones y reintegros en un solo lugar. Incluye una landing page y un formulario de registro con múltiples pasos.",
+        "technologies": [
+          "React",
+          "React hook form",
+          "Tailwind",
+          "Node JS",
+          "Express",
+          "Sequelize",
+          "MySQL"
+        ],
+        "links": {
+          "demo": "http://temp.descuentas.com/"
+        }
+      },
+      {
+        "title": "Travel explorer",
+        "image": "/assets/projects/travel-explorer.png",
+        "description": "Aplicación web que muestra información sobre destinos turísticos utilizando una Mock API. Permite buscar por nombre o ubicación, filtrar por categoría, ver información detallada de cada uno y crear uno nuevo. Diseño responsive hecho en Figma.",
+        "technologies": [
+          "TypeScript",
+          "React",
+          "Redux toolkit",
+          "Tailwind",
+          "Jest",
+          "Testing library"
+        ],
+        "links": {
+          "demo": "https://travel-explorer-solch4.vercel.app/",
+          "github": "https://github.com/solch4/Travel-Explorer"
+        }
+      },
+      {
         "title": "Star Wars App",
         "image": "/assets/projects/star-wars-app.png",
         "description": "Aplicación web sobre las películas y los personajes de Star Wars utilizando la API de SWAPI. Los personajes se pueden filtrar por color de ojos y género. Lazy load implementado para el routing. Diseño responsive hecho en Figma.",
@@ -160,19 +194,6 @@
         "links": {
           "demo": "https://solch4.github.io/Weather-App/",
           "github": "https://github.com/solch4/Weather-App"
-        }
-      },
-      {
-        "title": "Space tourism website",
-        "image": "/assets/projects/space-tourism.png",
-        "description": "Solución al desafío Space tourism website en Frontend Mentor.",
-        "technologies": [
-          "React",
-          "Sass"
-        ],
-        "links": {
-          "demo": "https://space-tourism-solch4.netlify.app/",
-          "github": "https://github.com/solch4/Space-tourism-website"
         }
       },
       {
