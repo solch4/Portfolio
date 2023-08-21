@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-const { fontFamily } = require("tailwindcss/defaultTheme");
+const { fontFamily, screens } = require("tailwindcss/defaultTheme");
 
 module.exports = {
   content: [
@@ -65,6 +65,10 @@ module.exports = {
     fontFamily: {
       nunitoSans: ["var(--font-nunitoSans)", ...fontFamily.sans],
       nunito: ["var(--font-nunito)", ...fontFamily.serif],
+    },
+    screens: {
+      xs: "576px",
+      ...screens,
     },
   },
   future: {
