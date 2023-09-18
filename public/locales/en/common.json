@@ -161,7 +161,8 @@
           "Redux toolkit",
           "Tailwind",
           "Jest",
-          "Testing library"
+          "Testing library",
+          "Leaflet"
         ],
         "links": {
           "demo": "https://travel-explorer-solch4.vercel.app/",
@@ -184,19 +185,6 @@
         }
       },
       {
-        "title": "Weather App",
-        "image": "/assets/projects/weather-app.png",
-        "description": "Weather application in real time. Allows access to climate data from different cities around the world.",
-        "technologies": [
-          "React",
-          "Pure CSS"
-        ],
-        "links": {
-          "demo": "https://solch4.github.io/Weather-App/",
-          "github": "https://github.com/solch4/Weather-App"
-        }
-      },
-      {
         "title": "Metaversus",
         "image": "/assets/projects/metaversus.png",
         "description": "Modern website with animated transitions to practice Next JS, Tailwind and Framer Motion.",
@@ -208,24 +196,6 @@
         "links": {
           "demo": "https://metaversus-solch4.vercel.app/",
           "github": "https://github.com/solch4/Metaversus"
-        }
-      },
-      {
-        "title": "Dog App - Full stack Dev",
-        "image": "/assets/projects/dog-app.png",
-        "description": "Full Stack web app, with +170 dog breeds. The user can filter by breed or temperament and sort them. They can also search by name, create, edit, or delete already existing breeds. Individual project at the Henry Bootcamp.",
-        "technologies": [
-          "React",
-          "Redux",
-          "Pure CSS",
-          "Node JS",
-          "Express",
-          "PostgreSQL",
-          "Sequelize"
-        ],
-        "links": {
-          "demo": "https://dogs-app-solch4.vercel.app/",
-          "github": "https://github.com/solch4/Dog-App"
         }
       },
       {
