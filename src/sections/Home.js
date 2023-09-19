@@ -3,7 +3,7 @@ import { Trans } from "next-i18next";
 
 export default function Home({ t }) {
   return (
-    <section id="home" className={`${styles.container} min-h-[80vh] grid place-content-center`}>
+    <section id="home" className={`${styles.container} min-h-[85svh] grid place-content-center`}>
       <div className="mx-auto w-fit">
         <h1 className="text-wrap-balance text-left text-xl xs:text-[2rem] leading-none grid gap-2 xs:gap-4">
           <Trans i18nKey="homeSection.greeting">
