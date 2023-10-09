@@ -13,12 +13,22 @@ export default function Page() {
 
   return (
     <>
+      <a
+        className="-translate-y-full focus:translate-y-0 bg-primary-100 font-semibold fixed z-50 p-2 transition"
+        href="#main"
+      >
+        {t("skipToMain")}
+      </a>
       <NavBar t={t} />
-      <Home t={t} />
-      <AboutMe t={t} lang={i18n.language} />
-      <Skills t={t} />
-      <Projects t={t} />
-      <Contact t={t} />
+
+      <main id="main">
+        <Home t={t} />
+        <AboutMe t={t} lang={i18n.language} />
+        <Skills t={t} />
+        <Projects t={t} />
+        <Contact t={t} />
+      </main>
+
       <Footer t={t} />
     </>
   );
